@@ -235,6 +235,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   float: left;
   position: relative;
+  background-image: url(../images/img3.jpg);
 }
 
 .fh5co-video {
@@ -300,6 +301,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
+  background-image:url(../images/img6.jpg);
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -316,7 +318,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 600px;
+    height: 750px;
+    background-image:url(../images/img7.jpg);
+  }
+  .fh5co-bg {
+    height: 750px;
+    background-image:url(../images/img8.jpg);
   }
 }
 .fh5co-cover .display-t,
