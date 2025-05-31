@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Jetro &amp; Ken Wedding</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
@@ -78,6 +78,19 @@
             border-radius: 8px;
             flex-shrink: 0;
 		}
+
+    /* Mobile view: Change background image for smaller screens */
+    @media screen and (max-width: 600px) {
+      .img-respon {
+        background-image: url('images/img7.jpg'); /* Smaller image for mobile */
+        height: 750px; /* Adjust height */
+      }
+
+	  .fh5co-bg {
+        background-image: url('images/img8.jpg'); /* Smaller image for mobile */
+        height: 750px; /* Adjust height */
+      }	  
+    }
 	</style>
 
 	</head>
@@ -107,7 +120,7 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img6.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover img-respon" role="banner" style="background-image:url(images/img6.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
