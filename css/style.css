@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 }
 .fh5co-nav #fh5co-logo {
@@ -111,6 +111,9 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
     display: none;
+  }
+  .fh5co-nav #fh5co-logo {
+    font-size: 30px;
   }
 }
 .fh5co-nav ul {
@@ -1069,6 +1072,9 @@ form label {
   .couple-half {
     width: 100%;
   }
+  .couple-half{
+    padding-top: 20%;
+  }
 }
 .couple-half h3 {
   font-family: "Sacramento", Arial, serif;
@@ -1131,6 +1137,9 @@ form label {
   .couple-half .desc-bride {
     padding-left: 0;
     text-align: center;
+  }
+  .couple-half{
+    margin-top: 10%;
   }
 }
 
